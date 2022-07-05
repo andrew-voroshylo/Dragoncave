@@ -3,6 +3,14 @@ package Dragon;
 import java.util.*;
 
 public class DragonCave {
+
+    int randomNumber = 1;
+    int CaveNumber = 2;
+    public Integer getSetup(){
+        return randomNumber+CaveNumber;
+    }
+
+
     public static void main(String[] args) {
         Random rand = new Random();
         int eatDragon = rand.nextInt(2)+1;
